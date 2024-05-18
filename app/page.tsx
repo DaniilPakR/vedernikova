@@ -9,6 +9,7 @@ import Faq from "@/components/Faq";
 import Indicators from "@/components/Indicators";
 import Ending from "@/components/Ending";
 import Footer from "@/components/Footer";
+import Doubts from "@/components/Doubts";
 
 
 export default function Home() {
@@ -19,7 +20,10 @@ export default function Home() {
       <About />
       <ForWho />
       <PracticeLesson />
-      <Price />
+      <Doubts />
+      <div id="price">
+        <Price />
+      </div>
       <Articles />
       <Faq />
       <Indicators />

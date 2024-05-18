@@ -25,7 +25,7 @@ export default function Hero() {
                         пошаговый план, как превратить просмотры в подписки и увеличить доход
                     </h1>
                 </div>
-                <Link href="" className="hero-link flex flex-row justify-end uppercase bg-customBlack rounded-radius30 text-white">
+                <Link href="#price" className="hero-link flex flex-row justify-end uppercase bg-customBlack rounded-radius30 text-white">
                     <h1 className="flex justify-self-center m-auto font-extrabold">
                         Купить урок
                     </h1>

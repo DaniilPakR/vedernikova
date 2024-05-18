@@ -5,10 +5,6 @@ export default function Price() {
     return (
         <div className="price flex justify-center">
             <div className="price-child">
-                <div className="price-header flex flex-row justify-end font-medium text-right">
-                    <h1>Листай, чтобы прочитать<br />все отзывы учеников</h1>
-                    <Image src="arrow.svg" width={48} height={39} alt="arrow-svg" className="pl-arrow" />
-                </div>
                 <div className="p-black-panel flex flex-col bg-customBlack rounded-radius20 text-white items-center">
                     <div className="pbp-header font-extrabold flex">
                         <h1>

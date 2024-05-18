@@ -8,7 +8,7 @@ export default function Ending() {
                 <h1 className="ending-header flex font-extrabold">
                     На этом уроке вы узнаете как создать в блоге систему, которая будет продавать за вас без ежедневных stories и стресса
                 </h1>
-                <Link href="" className="ending-link flex flex-row justify-end uppercase bg-customBlack rounded-radius30 text-white">
+                <Link href="#price" className="ending-link flex flex-row justify-end uppercase bg-customBlack rounded-radius30 text-white">
                     <h1 className="flex justify-self-center m-auto font-extrabold">
                         КУПИТЬ ДОСТУП
                     </h1>
