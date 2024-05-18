@@ -4,8 +4,8 @@ import Link from "next/link"
 export default function About() {
 
     return (
-        <div className="about flex justify-center z-30">
-            <div className="about-child bg-customBlack rounded-radius20 text-white">
+        <div className="about flex justify-center z-50">
+            <div className="about-child flex flex-col bg-customBlack rounded-radius20 text-white z-50">
                 <div className="about-headings flex justify-between">
                     <h1>Автор урока</h1>
                     <Link href="https://www.instagram.com/vedernikova.natalia_/">@vedernikova.natalia_</Link>
@@ -34,7 +34,7 @@ export default function About() {
                         <h1>Обучила более 550 человек</h1>
                     </div>
                 </div>
-                <div className="about-numbers">
+                <div className="about-numbers flex flex-col">
                     <div className="about-numbers-1">
                         <h1 className="font-medium">15.400.000</h1>
                         <h1>на блоге за 1 год — с нуля и без ежедневных stories</h1>

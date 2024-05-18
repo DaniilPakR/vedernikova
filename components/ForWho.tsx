@@ -44,7 +44,7 @@ export default function ForWho() {
                             Урок для Вас, если Вы:
                         </div>
                         <div className="for-who-columns flex flex-col">
-                            <div className="for-who-column-1">
+                            <div className="for-who-column-1 flex flex-col">
                                 <div className="for-who-item flex flex-row bg-white rounded-radius40 items-center">
                                     <div className="for-who-check flex bg-black rounded-radius30 justify-center items-center">
                                         <Image src="/small-pictures/check-white.svg" height={30} width={30} alt="check-white" className="white-check flex" />
@@ -70,7 +70,7 @@ export default function ForWho() {
                                     </h1>
                                 </div>
                             </div>
-                            <div className="for-who-column-2">
+                            <div className="for-who-column-2 flex flex-col">
                                 <div className="for-who-item flex flex-row bg-white rounded-radius40 items-center">
                                     <div className="for-who-check flex bg-black rounded-radius30 justify-center items-center">
                                         <Image src="/small-pictures/check-white.svg" height={30} width={30} alt="check-white" className="white-check flex" />

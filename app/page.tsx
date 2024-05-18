@@ -17,18 +17,28 @@ export default function Home() {
     <div className="flex flex-col">
       <Header />
       <Hero />
-      <About />
-      <ForWho />
-      <PracticeLesson />
-      <Doubts />
+      <div id="about">
+        <About />
+      </div>
+      <div id="for-who">
+        <ForWho />
+      </div>
+      <div id="practice-lesson">
+        <PracticeLesson />
+      </div>
+        <Doubts />
       <div id="price">
         <Price />
       </div>
       <Articles />
-      <Faq />
+      <div id="faq">
+        <Faq />
+      </div>
       <Indicators />
       <Ending />
-      <Footer />
+      <div id="footer">
+        <Footer />
+      </div>
     </div>
   );
 }

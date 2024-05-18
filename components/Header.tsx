@@ -14,32 +14,32 @@ export default function Header() {
                 <div className="burger-menu-btn flex bg-customPurple rounded-radius30 justify-center items-center cursor-pointer">
                     <Image src="/small-pictures/burger-menu.svg" width={25} height={25} alt="burger-menu" className="burger-menu-picture flex" />
                 </div>
-                </div>
-                {/* <div className="header-panel">
-                    <Link href="" className="header-panel-link">Об авторе</Link>
-                    <Link href="" className="header-panel-link">Для кого</Link>
-                    <Link href="" className="header-panel-link">Превью</Link>
-                    <Link href="" className="header-panel-link">Отзывы</Link>
-                    <Link href="" className="header-panel-link">FAQ</Link>
-                    <Link href="" className="header-panel-link">Служба заботы</Link>
-                    <Link href="" className="header-panel-last">
+                <div className="header-panel hidden uppercase">
+                    <Link href="#about" className="header-panel-link">Об авторе</Link>
+                    <Link href="#for-who" className="header-panel-link">Для кого</Link>
+                    <Link href="#practice-lesson" className="header-panel-link">Превью</Link>
+                    <Link href="#reviews" className="header-panel-link">Отзывы</Link>
+                    <Link href="#faq" className="header-panel-link">FAQ</Link>
+                    <Link href="#footer" className="header-panel-link">Служба заботы</Link>
+                    <Link href="#price" className="header-panel-last bg-customBlack rounded-radius30">
                         Купить урок
                     </Link>
-                </div> */}
+                </div>
+                </div>
             </div>
             <div className="burger-menu hidden bg-customPurple fixed z-50">
             <div className="burger-menu-child flex flex-col text-white">
                 <div className="close flex justify-end">
                     <Image src="small-pictures/close.svg" width={27} height={27} alt="close-svg" className="close-picture flex" />
                 </div>
-                <Link href="" className="header-panel-link-burger flex">Об авторе</Link>
-                <Link href="" className="header-panel-link-burger flex">Для кого</Link>
-                <Link href="" className="header-panel-link-burger flex">Превью</Link>
-                <Link href="" className="header-panel-link-burger flex">Отзывы</Link>
-                <Link href="" className="header-panel-link-burger flex">FAQ</Link>
-                <Link href="" className="header-panel-link-burger flex">Служба заботы</Link>
+                <Link href="#about" className="header-panel-link-burger flex">Об авторе</Link>
+                <Link href="#forwho" className="header-panel-link-burger flex">Для кого</Link>
+                <Link href="#practice-lesson" className="header-panel-link-burger flex">Превью</Link>
+                <Link href="#reviews" className="header-panel-link-burger flex">Отзывы</Link>
+                <Link href="#faq" className="header-panel-link-burger flex">FAQ</Link>
+                <Link href="#footer" className="header-panel-link-burger flex">Служба заботы</Link>
                 <div className="header-panel-last-burger flex">
-                    <Link href="" className="header-panel-last-child-burger
+                    <Link href="#price" className="header-panel-last-child-burger
                      flex justify-center items-center text-white bg-customBlack rounded-radius30 uppercase font-semibold">Купить урок</Link>
                 </div>
                 <div className="burger-socials flex">
