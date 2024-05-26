@@ -413,6 +413,10 @@ body {
 
 /* PRICE */
 
+.price {
+  margin-top: 45px;
+}
+
 .price-child {
   width: 359px;
 }
@@ -997,5 +1001,276 @@ body {
     font-size: 18px;
     line-height: 20px;
   }
+
+  /* PRACTICE LESSON */
+
+  .pl-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pl-small-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .pl-big-text {
+    font-sizE: 56px;
+  }
+
+  .pl-content {
+    height: 330px;
+    width: 1160px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pl-content-big {
+    margin: 0px 0px 20px 0px;
+    text-align: initial;
+    font-size: 56px;
+    margin-top: -150px;
+  }
+
+  .pl-content-small {
+    margin: 0px;
+    max-width: 715px;
+    max-height: none;
+    width: auto;
+    height: auto;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .pl-bg {
+    display: none;
+  }
+
+  .video {
+    height: 521px;
+    width: 958px;
+    margin-top: -150px;
+  }
+
+  .pl-bg-dp {
+    display: block;
+    width: 1788px;
+    height: 1033px;
+    min-width: 1788px;
+    min-height: 1033px;
+    margin-top: 100px;
+    margin-right: 80px;
+  }
+
+  /* PRICE */
+
+  .price-child {
+    width: 960px;
+  }
+
+  .p-black-panel {
+    width: 960px;
+    height: 489px;
+  }
+
+  .pbp-header {
+    font-size: 56px;
+    margin: 40px 0px 60px 0px;
+  }
+
+  .price-column-1, .price-column-2, .price-column-3 {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .price-text {
+    font-size: 18px;
+    line-height: 20px;
+    max-width: none;
+  }
+
+  .price-link {
+    width: 438.4px;
+    height: 56.4px;
+    justify-content: space-between;
+  }
+
+  .pl-text {
+    justify-self: auto;
+    margin: 0px 0px 0px 20px;
+  }
+
+  .warning {
+    width: 400px;
+    font-size: 15px;
+  }
+
+  /* ARTICLES */
+
+  .articles-child {
+    width: 900px;
+  }
+
+  .articles-header :last-child {
+    font-size: 53px;
+  }
+
+  .articles-column {
+    flex-direction: row;
+    gap: 180px;
+  }
+
+  .article-text {
+    font-size: 20px;
+    position: absolute;
+    line-height: 22px;
+  }
+  
+  .article-text-1 {
+    min-width: 276px;
+    width: 276px;
+    right: -40px;
+    top: 230px;
+  }
+
+  .article-text-2 {
+    min-width: 442px;
+    width: 442px;
+    font-size: 20px;
+    right: -150px;
+    top: 250px;
+  }
+
+  .articles-item-1, .articles-item-2 {
+    position: relative;
+  }
+
+  /* FAQ */
+
+  .faq {
+    width: 1160px;
+    justify-content: start;
+    margin-top: 230px;
+  }
+
+  .faq-header {
+    margin-bottom: 40px;
+  }
+
+  .article-button-text {
+    margin-bottom: 30px;
+  }
+
+  .article-button {
+    height: 78px;
+    width: 1160px;
+    padding: 10px 0px 10px 0px;
+  }
+
+  .article-button h1 {
+    font-size: 18px;
+    max-width: none;
+  }
+
+  /* INDICATORS */
+
+  .indicators-child {
+    height: 518px;
+    width: 960px;
+  }
+
+  .indicators-header {
+    font-size: 56px;
+    width: 690px;
+    line-height: 58px;
+    margin: 40px 0px 30px 60px;
+  }
+
+  .indicators-column {
+    font-size: 16px;
+  }
+
+  .indicators-item {
+    width: 840px;
+    height: 42px;
+  }
+
+  /* ENDING */
+
+  .ending {
+    margin-top: 100px;
+  }
+
+  .ending-header {
+    width: 884px;
+    font-size: 34px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .ending-link {
+    margin-top: 50px;
+    height: 56px;
+    width: 458px;
+    justify-content: space-between;
+  }
+
+  .ending-link h1 {
+    justify-self: auto;
+    margin: 0px 0px 0px 20px;
+    align-items: center;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    margin-top: 20px;
+  }
+
+  .footer-header {
+    display: none;
+  }
+
+  .footer-last {
+    min-height: 420px;
+    height: 420px;
+    width: 1420px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 50px 130px 40px 130px
+  }
+
+  .footer-header-desktop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-header-container {
+    display: flex;
+  }
+
+  .footer-header-1 {
+    font-size: 26px;
+    width: 527px;
+    line-height: 28px;
+  }
+
+  .footer-header-2 {
+    height: 52.4px;
+    width: 218.4px;
+  }
+
+  .heart-image {
+    height: 52px;
+    width: 49px;
+    justify-self: flex-end;
+    margin: auto;
+  }
+
+  
 
 }

@@ -14,6 +14,19 @@ export default function Footer() {
                     </h1>
                 </div>
                 <div className="footer-last bg-customGray rounded-radius20 flex flex-col">
+                    <div className="footer-header-container flex flex-row hidden">
+                        <div className="footer-header-desktop flex flex-col items-center hidden">
+                            <h1 className="footer-header-1 font-bold">
+                                Остались вопросы по уроку, сложности с оплатой или нужна консультация?
+                            </h1>
+                            <h1 className="footer-header-2 bg-white font-extrabold uppercase rounded-radius30 flex justify-center items-center">
+                                Нужна помощь
+                            </h1>
+                        </div>
+                        <div className="heart-image flex">
+                            <Image src="/cloud-heart.png" height={52} width={49} alt="heart-image" className="heart-image-item" />
+                        </div>
+                    </div>
                     <div className="footer-last-first flex flex-col">
                         <h1>
                             Индивидуальный предприниматель Ведерникова Наталья Александровна

@@ -4,6 +4,7 @@ export default function PracticeLesson() {
     
     return (
         <div className="practice-lesson flex justify-center relative">
+            <Image src="/lines/image_1.svg" width={1788} height={1033} alt="black-line-bg" className="pl-bg-dp absolute hidden" />
             <Image src="/black-line-mobile.svg" width={515} height={504} alt="black-line-img" className="pl-bg absolute z-10" />
             <div className="practice-lesson-child flex flex-col justify-center">
                 <div className="pl-header">
@@ -19,7 +20,7 @@ export default function PracticeLesson() {
                 </div>
                 <div className="pl-content flex flex-col bg-customPurple rounded-radius20">
                     <h1 className="pl-content-big font-extrabold text-right">Практический урок</h1>
-                    <h1 className="pl-content-small font-medium">После которого вы узнаете как создать в блоге систему,<br />которая будет продавать<br />за вас без ежедневных<br />сторис и выгорания.</h1>
+                    <h1 className="pl-content-small font-medium">После которого вы узнаете как создать в блоге систему,<br className="break-line-mobile" />которая будет продавать<br className="break-line-mobile" />за вас без ежедневных<br className="break-line-mobile" />сторис и выгорания.</h1>
                 </div>
                 <iframe width="361" height="202"
                     src="https://www.youtube.com/embed/-X4hmyIXq2M" className="video flex self-center z-20">
