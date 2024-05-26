@@ -315,7 +315,11 @@ body {
 .black-panel-header {
   font-size: 45px;
   line-height: 47px;
-  margin: 20px 0px 35px 0px;
+  margin: 20px 0px 35px 10px;
+}
+
+.for-who-columns {
+  align-items: center
 }
 
 .for-who-column-1, .for-who-column-2 {
@@ -719,8 +723,8 @@ body {
   .header-panel {
     border: 1px solid #101012;
     border-radius: 30px;
-    width: 934.4px;
-    height: 34.4px;
+    width: 935.4px;
+    height: 35.4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -736,15 +740,14 @@ body {
 
   .header-panel-last {
     display: flex;
-    height: 100%;
-    width: 158px;
+    height: 101%;
+    width: 158.4px;
     color: white;
     border: 1px solid #101012;
     justify-content: center;
     align-items: center;
     font-size: 14px;
     font-weight: 800;
-    margin: -5px -5px auto auto;
   }
   
   .header-panel-last:hover {
@@ -845,6 +848,12 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 60px;
+    border: 1px solid #101012;
+  }
+
+  .hero-link:hover {
+    background-color: white;
+    color: black;
   }
 
   .hero-link h1 {
@@ -982,11 +991,12 @@ body {
     padding: 20px 60px;
   }
 
-  .blac-panel-header {
-    font-size: 65px;
+  .black-panel-header {
+    font-size: 56px;
   }
 
   .for-who-columns {
+    margin-top: 20px;
     flex-direction: row;
     gap: 190px;
   }
@@ -1007,6 +1017,17 @@ body {
   .for-who-text {
     font-size: 18px;
     line-height: 20px;
+    max-width: 395px;
+  }
+
+  .for-who-check {
+    height: 52px;
+    width: 52px;
+  }
+
+  .white-check {
+    width: 30px;
+    height: 30px;
   }
 
   /* PRACTICE LESSON */
@@ -1102,6 +1123,12 @@ body {
     width: 438.4px;
     height: 56.4px;
     justify-content: space-between;
+    border: 1px solid white;
+  }
+
+  .price-link:hover {
+    background-color: #101012;
+    color: white;
   }
 
   .pl-text {
@@ -1222,6 +1249,12 @@ body {
     height: 56px;
     width: 458px;
     justify-content: space-between;
+    border: 1px solid black;
+  }
+
+  .ending-link:hover {
+    background-color: white;
+    color: black;
   }
 
   .ending-link h1 {
@@ -1269,6 +1302,12 @@ body {
   .footer-header-2 {
     height: 52.4px;
     width: 218.4px;
+    border: 1px solid white;
+  }
+
+  .footer-header-2:hover {
+    background-color: #ECECEC;
+    cursor: pointer;
   }
 
   .heart-image {
