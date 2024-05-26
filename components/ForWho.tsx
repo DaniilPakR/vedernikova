@@ -38,7 +38,7 @@ export default function ForWho() {
                 </div> 
             </div>
             <div className="for-who-2 flex justify-center">
-                <div className="black-panel-parent flex">
+                <div className="black-panel-parent flex justify-center">
                     <div className="for-who-black-panel flex flex-col bg-customBlack rounded-radius40">
                         <div className="black-panel-header relative text-white font-extrabold">
                             Урок для Вас, если Вы:

@@ -726,7 +726,7 @@ body {
     align-items: center;
     font-size: 13px;
     font-weight: 600;
-    padding-right: 0px;
+    padding: 0px;
   }
 
   .header-panel a {
@@ -739,10 +739,17 @@ body {
     height: 100%;
     width: 158px;
     color: white;
+    border: 1px solid #101012;
     justify-content: center;
     align-items: center;
     font-size: 14px;
     font-weight: 800;
+    margin: -5px -5px auto auto;
+  }
+  
+  .header-panel-last:hover {
+    background-color: white;
+    color: black;
   }
 
   /* HERO */

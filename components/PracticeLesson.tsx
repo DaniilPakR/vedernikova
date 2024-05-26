@@ -18,7 +18,7 @@ export default function PracticeLesson() {
                             Возникли сомнения?
                         </h1>
                 </div>
-                <div className="pl-content flex flex-col bg-customPurple rounded-radius20">
+                <div className="pl-content m-auto flex flex-col bg-customPurple rounded-radius20">
                     <h1 className="pl-content-big font-extrabold text-right">Практический урок</h1>
                     <h1 className="pl-content-small font-medium">После которого вы узнаете как создать в блоге систему,<br className="break-line-mobile" />которая будет продавать<br className="break-line-mobile" />за вас без ежедневных<br className="break-line-mobile" />сторис и выгорания.</h1>
                 </div>
