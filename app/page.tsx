@@ -14,7 +14,6 @@ import Doubts from '@/components/Doubts';
 export default function Home() {
   return (
     <div className='flex flex-col'>
-      ADLET TEST
       <Header />
       <Hero />
       <div id='about'>
