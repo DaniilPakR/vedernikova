@@ -10,6 +10,7 @@ import Indicators from '@/components/Indicators';
 import Ending from '@/components/Ending';
 import Footer from '@/components/Footer';
 import Doubts from '@/components/Doubts';
+import Reviews from '@/components/Reviews';
 
 export default function Home() {
   return (
@@ -22,10 +23,11 @@ export default function Home() {
       <div id='for-who'>
         <ForWho />
       </div>
+      <Doubts />
       <div id='practice-lesson'>
         <PracticeLesson />
       </div>
-      <Doubts />
+      <Reviews />
       <div id='price'>
         <Price />
       </div>
