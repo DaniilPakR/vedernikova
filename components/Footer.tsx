@@ -63,8 +63,8 @@ export default function Footer() {
                         <h1 className="restriction">
                             Социальная сеть Instagram запрещена в России, Meta признана экстремистской организацией, её деятельность в России запрещена.
                         </h1>
-                        <Link href="https://www.instagram.com/ivluence/" className="credit">
-                            Дизайн и разработка сайта <span className="text-customPurple">@invluence</span>
+                        <Link href="https://t.me/sanv1zl" className="credit">
+                            Дизайн и разработка сайта <span className="text-customPurple">@sanv1zl</span>
                         </Link>
                     </div>
                 </div>
