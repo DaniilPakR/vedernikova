@@ -17,8 +17,8 @@ export default function Header() {
     }
 
     useEffect(() => {
-        document.documentElement.style.setProperty('--display', burgerMenu)
-    })
+        document.documentElement.style.setProperty('--display', burgerMenu);
+    }, [burgerMenu])
     
     return (
         <div className="flex justify-center">
