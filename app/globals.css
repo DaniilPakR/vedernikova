@@ -28,7 +28,8 @@ body {
   right: 0vh;
   top: 0vh;
   height: 926px;
-  width: 285px;
+  width: 40vh;
+  display: var(--display)
 }
 
 .burger-menu-child {
@@ -37,6 +38,8 @@ body {
 
 .close {
   margin: 37px 55px 12px 0px;
+  display: block;
+  align-self: flex-end;
 }
 
 .close-picture:hover {
@@ -44,7 +47,7 @@ body {
 }
 
 .header-panel-link-burger {
-  margin: 15px 0px 5px 30px;
+  margin: 0px 0px 5px 30px;
 }
 
 .header-panel-last-burger {
@@ -60,7 +63,7 @@ body {
   margin: 25px 0px 0px 30px;
 }
 
-.burger-instagarm {
+.burger-instagram {
   width: 35px;
   height: 35px;
 }
@@ -1480,6 +1483,8 @@ body {
     margin: auto;
   }
 
-  
+ 
 
 }
+
+
