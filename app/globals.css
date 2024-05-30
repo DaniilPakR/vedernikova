@@ -29,7 +29,8 @@ body {
   top: 0vh;
   height: 926px;
   width: 40vh;
-  display: var(--display)
+  display: var(--display);
+  z-index: 100;
 }
 
 .burger-menu-child {
