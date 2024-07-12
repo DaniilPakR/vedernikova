@@ -19,8 +19,8 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
+        <meta name="description" content={metadata.description || ""} />
+        <title>{metadata.title || ""}</title>
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
