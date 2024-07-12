@@ -20,7 +20,7 @@ export default function RootLayout({
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content={metadata.description || ""} />
-        <title>{metadata.title || ""}</title>
+        <title>{metadata.title as string || ""}</title>
       </Head>
       <body className={inter.className}>{children}</body>
     </html>
